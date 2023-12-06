@@ -1,0 +1,138 @@
+.container {
+    width: 100%;
+    height: 50vh;
+    /* background-color: rgb(255, 47, 47); */
+    margin-left: 20%;
+    margin-top: 5%;
+    transition-property: width;
+
+}
+.line1 {
+    width: 10%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: both; */
+   
+}
+.line2 {
+    width: 15%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    
+}
+.line3 {
+    width: 20%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+.line4 {
+    width: 15%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.line5 {
+    width: 16%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.line6 {
+    width: 10%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.line7 {
+    width: 5%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.line8 {
+    width: 15%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.line9 {
+    width: 10%;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: ease-in-out;
+}
+
+/* .lines {
+    animation: line 8s cubic-bezier(.52,.54,.58,.57); 
+} */
+
+
+/* @keyframes line {
+    from {transform: translatex(0)}
+    to {transform: translateX(50px);}
+    from {transform:scaleX(1)}
+    to {transform:scaleX(-1)} 
+} */
+@keyframes line {
+    0% {transform: translateY(-50) scale(0);}
+
+    50% {transform: translateY(-50) scale(0);}
+
+    70% {transform: translateY(-50) scale(0);
+    width: 0.2%;}
+
+    95%  {transform: translateY(-50) scale(0) translateX(395);}
+
+    100%  {transform: translateY(-50%) scale(1) translateX(395);}
+}
